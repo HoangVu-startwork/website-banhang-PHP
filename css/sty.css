@@ -1,0 +1,195 @@
+.class {
+    border: 1px solid #050706;
+    height: auto;
+    width: 99.5%;
+    /* background: #4a9b87; */
+    margin: 2px;
+}
+
+ul.class_menu {
+    padding: 0;
+    margin: 0;
+    width: 95%;
+    list-style: none;
+    margin: 0 auto;
+    line-height: 17px;
+}
+
+ul.class_menu li:hover {
+    background: #BCFEFE;
+}
+
+ul.class_menu li a:hover {
+    color: rgb(0, 0, 0);
+}
+
+ul.class_menu li a {
+    text-decoration: none;
+    text-align: center;
+    color: #4b4bbb;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+ul.class_menu li p a {
+    margin-top: 30px;
+}
+
+ul.class_menu li {
+    float: left;
+    margin: 9px;
+    margin-right: 15px;
+    padding: 5px;
+    width: 205px;
+    text-align: center;
+    /* border: 1px solid #050706; */
+    border: thick double #BBC6D9;
+    border-radius: 7px;
+}
+
+.marquee {
+    /* font-size: 
+    40px;
+    font-family: 'My Soul', cursive;
+    text-align: center;
+     font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif; 
+    text-align: center;
+    font-size: 50px;
+    color: #2c2c2c;
+    background-color: #ffffff;
+    letter-spacing: .05em;
+    text-shadow: 4px 4px 0px #d5d5d5, 7px 7px 0px rgba(0, 0, 0, 0.2);
+    height: 100px;
+    padding-top: 40px; */
+}
+
+
+/* body {
+    margin: 0;
+    padding: 0;
+    background-color: #000;
+    height: 100vh;
+} */
+
+#c {
+    margin-top: 6px;
+    margin-left: 7px;
+    position: relative;
+    width: 99%;
+    height: 80px;
+    background: linear-gradient(45deg, #000, #636262);
+    border-radius: 30px;
+    /* margin: calc(50vh - 100px) auto; */
+}
+
+#c::before,
+#c::after {
+    position: absolute;
+    content: '';
+    top: -4px;
+    left: -4px;
+    width: calc(100% + 8px);
+    height: calc(100% + 8px);
+    background: linear-gradient(45deg, #fb0094, #0000ff, #ff00ff, #ffff00, #fb0094, #0000ff, #ff00ff, #ffff00);
+    background-size: 300%;
+    border-radius: 30px;
+    z-index: -1;
+    animation: shadow 20s linear infinite;
+}
+
+#c::after {
+    filter: blur(10px);
+}
+
+#c marquee {
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 99%;
+    height: 70px;
+    font-size: 50px;
+    font-family: 'My Soul', cursive;
+    color: ivory;
+    font-weight: 900;
+    background: linear-gradient(45deg, #ecd54d, #5555ee, #4dee7e, #fd3030, #67f0d9, #6161fc, #9e3fd4, #ffff00);
+    background-size: 300%;
+    border-radius: 30px;
+    animation: shadow 20s linear infinite;
+}
+
+@keyframes shadow {
+    0% {
+        background-position: 300% 0;
+    }
+    100% {
+        background-position: 0 0;
+    }
+}
+
+#d {
+    margin-top: 6px;
+    margin-left: 7px;
+    position: relative;
+    width: 99%;
+    height: 80px;
+    background: linear-gradient(45deg, #000, #9b9797);
+    border-radius: 30px;
+    /* margin: calc(50vh - 100px) auto; */
+}
+
+#d::before,
+#d::after {
+    position: absolute;
+    content: '';
+    top: -4px;
+    left: -4px;
+    width: calc(100% + 8px);
+    height: calc(100% + 8px);
+    background: linear-gradient(45deg, #d2f704, #babaf8, #88f0a7, #f57474, #a2fdee, #eb89e6, #c083e4, #e2e281);
+    background-size: 300%;
+    border-radius: 30px;
+    z-index: -1;
+    animation: shadow 20s linear infinite;
+}
+
+#d::after {
+    filter: blur(10px);
+}
+
+#d marquee {
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 99%;
+    font-size: 50px;
+    height: 70px;
+    font-family: 'My Soul', cursive;
+    color: ivory;
+    font-weight: 900;
+    background: linear-gradient(45deg, #3e441a, #242455, #173520, #4e2727, #254640, #50264e, #3d274b, #36361c);
+    background-size: 300%;
+    border-radius: 30px;
+    animation: shado 50s linear infinite;
+}
+
+@keyframes shado {
+    0% {
+        color: rgb(255, 255, 255);
+    }
+    25% {
+        color: rgb(99, 96, 96);
+    }
+    50% {
+        color: rgb(0, 255, 200);
+    }
+    75% {
+        color: rgb(219, 10, 10);
+    }
+    100% {
+        color: rgb(99, 14, 121);
+    }
+}

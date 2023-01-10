@@ -1,0 +1,199 @@
+nav {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 80px;
+    padding: 1px 80px;
+    box-sizing: border-box;
+    /* background: rgba(0, 0, 0, 0.6); */
+    /* border-bottom: 1px solid rgb(182, 29, 29); */
+    position: sticky;
+    z-index: 1;
+    align-items: center;
+}
+
+nav .logo {
+    padding: 22px 20px;
+    height: 30px;
+    float: left;
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: rgb(255, 255, 255);
+}
+
+nav>ul {
+    list-style: none;
+    float: right;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav>ul>li>a {
+    line-height: 74px;
+    color: #fff;
+    padding: 10px 30px;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+nav>ul>li>a:hover {
+    background: rgba(0, 0, 0, 0.7);
+    border-radius: 9px;
+}
+
+
+/* nav>ul>li>a>i {
+    font-size: 16px;
+    text-align: center;
+}
+
+nav>ul>li>a>i>p {
+    font-size: 10px;
+    text-align: center;
+    margin-top: 1px;
+} */
+
+
+/* .submenu {
+    display: none;
+}
+
+.submenu li {
+    list-style: none;
+}
+
+.submenu li a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    display: block;
+    line-height: 40px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.submenu li a:hover {
+    color: #0d1a24;
+}
+
+nav>ul>li:hover ul.submenu {
+    display: block;
+    position: absolute;
+} */
+
+.header {
+    background: linear-gradient(to right, #9c27b0, #8ecdff);
+    /* height: 600px;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 10px; */
+}
+
+.information {
+    width: 1000px;
+    height: 1000px;
+    position: absolute;
+    top: 50%;
+    left: -10%;
+    transform: translateY(-50%);
+}
+
+#circle {
+    width: 1000px;
+    height: 1000px;
+    top: 0;
+    left: 0;
+    border-radius: 50%;
+    transform: rotate(0deg);
+    transition: 1s;
+}
+
+.feature img {
+    width: 80px;
+}
+
+.feature {
+    position: absolute;
+    display: flex;
+    color: #fff;
+}
+
+.feature div {
+    margin-left: 20px;
+}
+
+.feature div p {
+    margin-top: 8px;
+}
+
+.one {
+    top: 450px;
+    right: 40px;
+}
+
+.two {
+    top: 140px;
+    left: 340px;
+    transform: rotate(-90deg);
+}
+
+.three {
+    bottom: 450px;
+    left: 40px;
+    transform: rotate(-180deg);
+}
+
+.four {
+    bottom: 140px;
+    right: 340px;
+    transform: rotate(-270deg);
+}
+
+.mobile {
+    width: 200px;
+    position: absolute;
+    top: 50%;
+    left: 35%;
+    transform: translateY(-50%);
+    z-index: 1;
+}
+
+.controls {
+    position: absolute;
+    right: 10%;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+}
+
+.controls h3 {
+    margin: 15px 0;
+    color: #fff;
+}
+
+#upBtn {
+    width: 15px;
+    cursor: pointer;
+}
+
+#downBtn {
+    width: 15px;
+    cursor: pointer;
+    transform: rotate(180deg);
+}
+
+.overlay {
+    width: 0;
+    height: 0;
+    border-top: 500px solid #fff;
+    border-right: 500px solid transparent;
+    border-bottom: 500px solid #fff;
+    border-left: 500px solid #fff;
+    position: absolute;
+    left: 0;
+    top: 0;
+}

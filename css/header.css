@@ -1,0 +1,80 @@
+.menugio {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 80px;
+    padding: 1px 80px;
+    box-sizing: border-box;
+    /* background: rgba(0, 0, 0, 0.6); */
+    /* border-bottom: 1px solid rgb(182, 29, 29); */
+    position: sticky;
+    z-index: 1;
+    align-items: center;
+    /* background: linear-gradient(to right, #6c0f7c, #43a3f1); */
+}
+
+.menugiohang {
+    background: linear-gradient(to right, #6c0f7c, #43a3f1);
+}
+
+.menugio .logo {
+    padding: 22px 20px;
+    height: 30px;
+    float: left;
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: rgb(2, 248, 43);
+}
+
+.menugio>ul {
+    list-style: none;
+    float: right;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.menugio>ul>li>a {
+    line-height: 78px;
+    color: #fff;
+    padding: 10px 35px;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.menugio>ul>li>a:hover {
+    background: rgba(0, 0, 0, 0.7);
+    border-radius: 6px;
+}
+
+
+/* .submenu1 {
+    display: none;
+    background: rgba(0, 0, 0, 0.7);
+}
+
+.submenu1 li {
+    list-style: none;
+}
+
+.submenu1 li a {
+    color: rgb(208, 208, 208);
+    text-decoration: none;
+    display: block;
+    line-height: 40px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.menugio>ul>li:hover ul.submenu1 {
+    display: block;
+    position: absolute;
+    width: 110px;
+}
+
+.submenu1 li a:hover {
+    color: rgb(255, 255, 255);
+} */

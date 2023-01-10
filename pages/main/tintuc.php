@@ -1,0 +1,1 @@
+<p>Thông tin tức</p>

@@ -1,0 +1,150 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    height: auto;
+    width: 99%;
+    margin: 0 auto;
+}
+
+.wrapper_chitiet {
+    height: auto;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.hinhanh_sanpham {
+    float: left;
+    width: 45%;
+    margin: 5px;
+}
+
+.chitiet_sanpham {
+    float: left;
+    width: 49%;
+    margin: 0 10px;
+}
+
+input.themgiohang {
+    border: none;
+    background: brown;
+    color: #fff;
+    padding: 12px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+#main {
+    border: 1px solid #fa5306;
+    height: auto;
+    width: 99.3%;
+    margin: 5px;
+    float: left;
+}
+
+.maincontent {
+    height: auto;
+    width: 99%;
+    margin-top: 8px;
+    margin-left: 9px;
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 8px;
+}
+
+ul.product_list {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    width: 100%;
+}
+
+ul.product_list li {
+    width: 19%;
+    border: 1px dashed #000;
+    margin: 6.6px;
+    float: left;
+    background: rgb(255, 255, 255);
+    height: auto;
+}
+
+ul.product_list li a {
+    text-decoration: none;
+}
+
+ul.product_list li img {
+    text-align: center;
+    width: 95%;
+    height: 230px;
+    display: block;
+    margin-top: 5px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+p.price_product {
+    text-align: center;
+    color: #7a2a2a;
+    font-size: 16px;
+    font-weight: bold;
+    position: relative;
+}
+
+p.title_product {
+    text-align: center;
+    color: #000;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.footer {
+    border: 1px solid #ff1a8c;
+    height: 240px;
+    width: 100%;
+    background: #d306d3;
+}
+
+p.footer_copyright {
+    text-align: center;
+    color: #000;
+}
+
+.clear {
+    clear: both;
+}
+
+#backtop {
+    width: 60px;
+    height: 60px;
+    background: tomato;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30%;
+    position: fixed;
+    bottom: 300px;
+    right: 10px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#backtop>a>i {
+    font-size: 20px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+
+#backtop>a>i>p {
+    font-size: 10px;
+    text-align: center;
+    margin-top: 3px;
+    color: rgb(255, 255, 255);
+}
+
+#backtop:hover {
+    background: #000;
+    color: rgb(255, 255, 255);
+}
